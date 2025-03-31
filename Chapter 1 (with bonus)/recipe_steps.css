@@ -1,0 +1,26 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Aston'; /*Custom Font*/
+    src: url(Aston\ Script.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+.recipe_steps{
+    color: 	#442F29; /*Set Font Color*/
+    text-align: center; /*Centers Text*/
+    text-decoration: none; /*Removes Font Decoration*/
+    font-size: 20px; /*Set Font Size*/
+    font-family: 'Aston'; /*Set Font Type*/
+}
+.recipe_steps_list ol {
+    list-style-position: inside; /*Ensures List Markers Inside Content*/
+    text-align: left; /*Align Text to Left*/
+    margin-left: 15%; /*Add Left Margin for Spacing*/
+}
+
+.recipe_steps_list li {
+    color: 	#442F29; /*Set Font Color*/
+    text-align: left; /*Add Left Margin for Spacing*/
+    font-family: 'Georgia'; /*Set Font Type*/
+    font-size: 16px; /*Set Font Size*/
+    margin-bottom: 10px; /*Add Bottom Margin for Spacing*/
+    padding-left: 0px; /*Remove Left Padding*/
+}
