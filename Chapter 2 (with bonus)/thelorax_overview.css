@@ -1,0 +1,26 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Nunito'; /*Custom Font*/
+    src: url(Nunito-VariableFont_wght.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+body {
+    background-image: url(TheLorax_Overview\ \(background\).jpg); /*Background Image Source*/
+    background-repeat: no-repeat; /*Ensures Background Image Won't Repeat*/
+    background-position: center; /*Centers Background Image*/
+    background-attachment: fixed; /*Ensures Background Image Stay Fixed*/
+    background-size: cover; /*Set Background Image Size*/
+}
+
+.plot_description {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 50%; /*Move Content From Top*/
+    left: 50%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+    color: 	#edecd8; /*Set Font Color*/
+    text-align: justify;  /*Justifies Text*/
+    text-decoration: none; /*Removes Font Decoration*/
+    font-size: 23px; /*Set Font Size*/
+    font-family: 'Nunito'; /*Set Font Type*/
+    font-weight: bold; /*Set Font Weight*/
+    display: flex; /*Display Items Horizontally*/
+}

@@ -1,0 +1,45 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Nunito'; /*Custom Font*/
+    src: url(Nunito-VariableFont_wght.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+body {
+    background-image: url(TheLorax_Overview\ \(background\).jpg); /*Background Image Source*/
+    background-repeat: no-repeat; /*Ensures Background Image Won't Repeat*/
+    background-position: center; /*Centers Background Image*/
+    background-attachment: fixed; /*Ensures Background Image Stay Fixed*/
+    background-size: cover; /*Set Background Image Size*/
+}
+
+.thelorax_reviewlist {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 70%; /*Move Content From Top*/
+    left: 45%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+    color: 	#edecd8; /*Set Font Color*/
+    font-size: 18px; /*Set Font Size*/
+    font-family: 'Nunito'; /*Set Font Type*/
+    text-align: justify; /*Justifies Text*/
+}
+
+.thelorax_reviewlist ul {
+    list-style: none; /*Removes List Style*/
+    list-style-position: inside; /*Ensures List Markers Inside Content*/
+}
+
+.thelorax_reviewlist li {
+    border-bottom: 2px solid #edecd8; /*Set Top Border Color & Thickness*/
+    padding-bottom: 5px; /*Add Bottom Padding*/
+    margin-bottom: 5px; /*Add Bottom Margin for Spacing*/
+}
+
+.thelorax_reviewlist h5 {
+    margin-bottom: 3px; /*Add Bottom Margin for Spacing*/
+    font-size: 19px; /*Set Font Size*/
+}
+
+.thelorax_reviewlist p {
+    margin-top: 0px; /*Removes Top Margin*/
+    margin-bottom: 5px; /*Add Bottom Margin for Spacing*/
+    font-size: 16px; /*Set Font Size*/
+}

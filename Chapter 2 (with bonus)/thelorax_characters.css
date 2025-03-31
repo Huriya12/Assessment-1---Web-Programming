@@ -1,0 +1,48 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Nunito'; /*Custom Font*/
+    src: url(Nunito-VariableFont_wght.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+body {
+    background-image: url(TheLorax_Overview\ \(background\).jpg); /*Background Image Source*/
+    background-repeat: no-repeat; /*Ensures Background Image Won't Repeat*/
+    background-position: center; /*Centers Background Image*/
+    background-attachment: fixed; /*Ensures Background Image Stay Fixed*/
+    background-size: cover; /*Set Background Image Size*/
+    padding-top: 60px; /*Add Top Padding*/
+}
+
+.characters_description {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 100%; /*Move Content From Top*/
+    left: 45%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+    display: flex; /*Display Items Horizontally*/
+    color: 	#edecd8; /*Set Font Color*/
+    font-size: 18px; /*Set Font Size*/
+    font-family: 'Nunito'; /*Set Font Type*/
+    text-align: left; /*Align Text to Left*/
+}
+
+.characters_description ul {
+    list-style: none; /*Removes List Style*/
+    list-style-position: inside; /*Ensures List Markers Inside Content*/
+}
+
+.characters_description li {
+    display: flex; /*Display Items Horizontally*/
+    align-items: center; /*Align Items Center-Vertically*/
+    gap: 25px; /*Add Spacing Between Items*/
+}
+
+.characters_description h4 {
+    margin-bottom: 3px; /*Add Bottom Margin for Spacing*/
+    font-size: 30px; /*Set Font Size*/
+}
+
+.characters_description p {
+    margin-top: 0px; /*Add Top Margin for Spacing*/
+    margin-bottom: 5px; /*Add Bottom Margin for Spacing*/
+    font-size: 16px; /*Set Font Size*/
+}
+

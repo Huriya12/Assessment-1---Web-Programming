@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!--Update Document Type to HTML's Latest Version-->
+<html>
+<title>Chapter 6: Petrol Calculator</title> <!--Webpage Title-->
+<head>
+    <!--Link to External CSS File for Designing the Website-->
+    <link rel="stylesheet" href="chapter6_petrolcalculator.css" type="text/css">
+</head>
+<body bgcolor="#ae0000">
+
+    <!--Heading 1 for Main Title-->
+    <h1>Petrol Calculator</h1>
+
+    <div class="petrolcalculation_contents">
+        Liters <input type="number" id="liters" value="0"> <!--User Input for Cost Per Liter-->
+        Cost Per Liter <input type="number" id="costper" value="1.72"> <!--User Input for Number of Liters-->
+        <p>Total Amount</p> <!--Paragraph for text, "Total Amount"-->
+        <p id="totalamount">AED 0.00</p> <!--Paragraph for Total Amount or Cost-->
+        <button onclick="calculatetotalamount()">Calculate</button><br> <!--Clickable Button to Call Function that Calculates Total Amount-->
+    </div>
+
+    <!--Javascript Function to Calculate Total Amount-->
+    <script>
+        function calculatetotalamount() {
+            let costper = parseFloat(document.getElementById('costper').value); //Converts User Input to Float
+            let liters = parseFloat(document.getElementById('liters').value); ///Converts User Input to Float
+
+            let totalamount = costper * liters; //Calculate Total Amount & Stores It
+
+            document.getElementById('totalamount').innerHTML = 'AED ' + totalamount.toFixed(2); //Display Results
+        }
+    </script>
+
+</body>
+</html>

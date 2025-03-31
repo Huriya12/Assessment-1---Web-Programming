@@ -1,0 +1,34 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Nunito'; /*Custom Font*/
+    src: url(Nunito-VariableFont_wght.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+.the_lorax_navbar {
+    background-color: rgba(0,0,0,0.5); /*Set Background Color*/
+    overflow: hidden; /*Hide Overflow Content*/
+    display: flex; /*Display Items Horizontally*/
+    position: fixed; /*Keep Items Fixed*/
+    justify-content: center; /*Align Items Center-Horizontally*/
+    align-items: center; /*Align Items Center-Vertically*/
+    gap: 20px; /*Add Spacing Between Items*/
+    top: 0%; /*Move Content From Top*/
+    left: 0%; /*Move Content From Left*/
+    width: 100%; /*Ensures Content Take Up Full Width*/
+    z-index: 1000; /*Keep Items on Top*/
+}
+
+.the_lorax_navbar a{
+    color: 	#ffa32d; /*Set Font Color*/
+    text-align: center; /*Centers Text*/
+    padding: 15px 17px; /*Add Padding Inside Content*/
+    text-decoration: none; /*Removes Font Decoration*/
+    font-size: 17px; /*Set Font Size*/
+    font-family: 'Nunito'; /*Set Font Type*/
+    font-weight: bold; /*Set Font Weight*/
+    display: flex; /*Display Items Horizontally*/
+}
+
+.the_lorax_navbar a:hover{
+    background-color: rgba(0,0,0,0.6); /*Set Background Color*/
+    color: #edecd8; /*Set Font Color*/
+}

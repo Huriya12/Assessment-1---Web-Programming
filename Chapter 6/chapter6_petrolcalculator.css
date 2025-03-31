@@ -1,0 +1,84 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Digital'; /*Custom Font*/
+    src: url(digital-7.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+h1 {
+    font-family: 'Digital'; /*Set Font Type*/
+    font-size: 95px; /*Set Font Size*/
+    text-align: center; /*Centers Text*/
+    margin-top: 25px; /*Add Top Margin for Spacing*/
+}
+
+.petrolcalculation_contents {
+    font-family: 'Digital'; /*Set Font Type*/
+    font-size: 60px; /*Set Font Size*/
+    font-weight: 700; /*Set Font Weight*/
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 95%; /*Move Content From Top*/
+    left: 50%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+    width: auto; /*Set Width*/
+}
+
+.petrolcalculation_contents input, p {
+    margin-bottom: 25px; /*Add Bottom Margin for Spacing*/
+}
+
+.petrolcalculation_contents p {
+    margin-top: 0px; /*Remove Top Margin*/
+}
+
+#totalamount {
+    background-color: #9eca83; /*Set Background Color*/
+    font-family: 'Digital'; /*Set Font Type*/
+    font-size: 60px; /*Set Font Size*/
+    font-weight: 700; /*Set Font Weight*/
+    text-align: left; /*Align Text to Left*/
+    border: 5px solid black; /*Set Border Color & Thickness*/
+    border-radius: 15px; /*Rounds Border Edges*/
+    padding: 15px 10px; /*Add Padding Around Content*/
+    margin-top: -15px; /*Reduce Top Margin for Spacing*/
+    margin-bottom: 15px; /*Add Top Margin for Spacing*/
+}
+
+.petrolcalculation_contents input {
+    background-color: #9eca83; /*Set Background Color*/
+    font-family: 'Digital'; /*Set Font Type*/
+    font-size: 60px; /*Set Font Size*/
+    font-weight: 700; /*Set Font Weight*/
+    text-align: left; /*Align Text to Left*/
+    border: 5px solid black; /*Set Border Color & Thickness*/
+    border-radius: 15px; /*Rounds Border Edges*/
+    padding: 15px 10px; /*Add Padding Around Content*/
+    margin-top: 10px; /*Add Top Margin for Spacing*/
+}
+
+.petrolcalculation_contents input:focus {
+    background-color: #bbee9b; /*Set Background Color*/
+    box-shadow: 0 0 10px #bbee9b; /*Set Box Shadow Direction, Blur, & Color*/
+    outline: none; /*Removes Outline*/
+}
+
+.petrolcalculation_contents button {
+    background-color: cadetblue; /*Set Background Color*/
+    font-family: 'Digital'; /*Set Font Type*/
+    font-size: 60px; /*Set Font Size*/
+    font-weight: 700; /*Set Font Weight*/
+    text-align: center; /*Align Text to Left*/
+    border: 5px solid black; /*Set Border Color & Thickness*/
+    border-radius: 50px; /*Rounds Border Edges*/
+    cursor: pointer; /*Display Pointer Cursor*/
+    padding: 10px 20px; /*Add Padding Around Content*/
+    margin-top: 30px; /*Add Top Margin for Spacing*/
+    margin-left: auto; /*Center Body Through Left Margin*/
+    margin-right: auto; /*Center Body Through Right Margin*/
+    margin-bottom: -25px; /*Reduce Bottom Margin for Spacing*/
+    display: block; /*Turn Items Block-Level*/
+}
+
+.petrolcalculation_contents button:hover {
+    background-color: #edecd8; /*Set Background Color*/
+    transform: scale(1.05); /*EAnlarges Button*/
+}
+

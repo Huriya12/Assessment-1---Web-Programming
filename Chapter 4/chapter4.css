@@ -1,0 +1,95 @@
+.chapter4_header {
+    background-color: #17072b; /*Set Background Color*/
+    color: #ffffff; /*Set Font Color*/
+    text-align: center; /*Centers Text*/
+    padding: 15px 0; /*Add Padding Around Container*/
+    width: 100%; /*Ensures Content Take Up Full Width*/
+}
+
+.chapter4_header h1 {
+    font-family: 'Tahoma'; /*Set Font Type*/
+    font-weight: 700; /*Set Font Weight*/
+    text-decoration: underline; /*Adds Underline to Text*/
+    text-underline-offset: 5px; /*Adds Space Between Underline & Text*/
+}
+
+.chapter4_header nav {
+    display: flex; /*Display Items Horizontally*/
+    justify-content: center; /*Justifies Text*/
+    gap: 10px; /*Add Spacing Between Items*/
+}
+
+.chapter4_header nav a {
+    color: #ffffff; /*Set Font Color*/
+    font-family: 'Arial'; /*Set Font Type*/
+    font-size: 22px; /*Set Font Size*/
+    text-decoration: none; /*Removes Text Decoration*/
+    padding: 10px 10px; /*Add Padding Around Container*/
+}
+
+main {
+    display: flex; /*Display Items Horizontally*/
+    gap: 10px; /*Add Spacing Between Items*/
+    padding-top: 10px; /*Add Top Padding*/
+}
+
+.chapter4_body {
+    flex: 2; /*Fill Space Available*/
+    color: #000000; /*Set Font Color*/
+    font-family: 'Arial'; /*Set Font Type*/
+    font-weight: 400; /*Set Font Weight*/
+    text-align: left; /*Align Text to Left*/
+    padding-left: 25px; /*Add Left Padding*/
+}
+
+.chapter4_body h2 {
+    font-family: 'Tahoma'; /*Set Font Type*/
+    font-weight: 700; /*Set Font Weight*/
+    text-decoration: underline; /*Adds Underline to Text*/
+    text-underline-offset: 5px; /*Adds Space Between Underline & Text*/
+}
+
+.chapter4_sidebar {
+    flex: 1; /*Fill Space Available*/
+    background-color: #172d67; /*Set Background Color*/
+    color: #ffffff; /*Set Font Color*/
+    font-family: Arial; /*Set Font Type*/
+    font-weight: 400; /*Set Font Weight*/
+    text-align: left; /*Align Text to Left*/
+    padding-left: 25px; /*Add Left Padding*/
+}
+
+.chapter4_sidebar h2 {
+    font-family: 'Tahoma'; /*Set Font Type*/
+    font-weight: 700; /*Set Font Weight*/
+    text-decoration: underline; /*Adds Underline to Text*/
+    text-underline-offset: 5px; /*Adds Space Between Underline & Text*/
+}
+
+.chapter4_sidebar ul{
+    list-style: none; /*Removes List Style*/
+    padding: 0; /*Removes Padding*/
+}
+
+.chapter4_sidebar li{
+    padding: 0; /*Removes Padding*/
+    margin-bottom: 5%; /*Add Bottom Margin for Spacing*/
+}
+
+.chapter4_sidebar li::before {
+    content: "-"; /*Display "-"*/
+    margin-right: 5px; /*Add Right Margin for Spacing*/
+}
+
+.chapter4_sidebarimages {
+    display: flex; /*Display Items Horizontally*/
+    margin-top: 15%; /*Add Right Margin for Spacing*/
+    gap: 5px; /*Add Spacing Between Items*/
+}
+
+footer{
+    background-color: #8c15e9; /*Set Background Color*/
+    color: #ffffff; /*Set Font Color*/
+    font-family: 'Arial'; /*Set Font Type*/
+    text-align: center; /*Centers Text*/
+}

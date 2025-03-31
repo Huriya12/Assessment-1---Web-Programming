@@ -1,0 +1,43 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Nunito'; /*Custom Font*/
+    src: url(Nunito-VariableFont_wght.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+body {
+    background-image: url(theloraxbg.png); /*Background Image Source*/
+    background-repeat: no-repeat; /*Ensures Background Image Won't Repeat*/
+    background-position: center; /*Centers Background Image*/
+    background-attachment: fixed; /*Ensures Background Image Stay Fixed*/
+    background-size: cover; /*Set Background Image Size*/
+}
+
+.thelorax_logo {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 45%; /*Move Content From Top*/
+    left: 55%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+}
+
+.watch_now {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 80%; /*Move Content From Top*/
+    left: 50%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+    background-color: #edecd8; /*Set Background Color*/
+    color: #ffa32d; /*Set Font Color*/
+    font-size: 19px; /*Set Font Size*/
+    font-weight: bold; /*Set Font Weight*/
+    font-family: 'Nunito'; /*Set Font Type*/
+    padding: 15px 30px; /*Add Padding Inside Content*/
+    border: 3px solid #ffa32d; /*Set Top Border Color & Thickness*/
+    border-radius: 100px; /*Make Border Edges Round*/
+    text-align: center; /*Centers Text*/
+    text-decoration: none; /*Removes Font Decoration*/
+    cursor: pointer; /*Display Pointer Cursor*/
+}
+
+.watch_now:hover {
+    background-color: #ffa32d; /*Set Background Color*/
+    color: #edecd8; /*Set Font Color*/
+    border: 3px solid #ffa32d; /*Set Top Border Color & Thickness*/
+}

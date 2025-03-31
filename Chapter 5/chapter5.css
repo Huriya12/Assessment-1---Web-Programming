@@ -1,0 +1,14 @@
+body {
+    background-image: url(spring_bg.jpg); /*Background Image Source*/
+    background-repeat: no-repeat; /*Ensures Background Image Won't Repeat*/
+    background-position: center; /*Centers Background Image*/
+    background-attachment: fixed; /*Ensures Background Image Stay Fixed*/
+    background-size: cover; /*Set Background Image Size*/
+}
+
+.chapter5_vid {
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 50%; /*Move Content From Top*/
+    left: 50%; /*Move Content From Left*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+}
