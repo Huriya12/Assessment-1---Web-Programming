@@ -1,0 +1,26 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Pigiarniq'; /*Custom Font*/
+    src: url(Pigiarniq.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+.chapter3_navbar {
+    background-color: black; /*Set Background Color*/
+    display: flex; /*Display Items Horizontally*/
+    overflow: hidden; /*Hide Overflow Content*/
+    position: fixed; /*Keep Items Fixed*/
+    justify-content: right; /*Align Items to Right*/
+    gap: 15px; /*Add Spacing Between Items*/
+    padding: 15px 0; /*Add Padding Inside Content*/
+    top: 0%; /*Move Content From Top*/
+    left: 0%; /*Move Content From Left*/
+    width: 100%; /*Ensures Content Take Up Full Width*/
+    z-index: 1000; /*Keep Items on Top*/
+}
+
+.chapter3_navbar a {
+    color: #ffce00; /*Set Font Color*/
+    font-family: 'Pigiarniq'; /*Set Font Type*/
+    font-size: 18px; /*Set Font Size*/
+    text-decoration: none; /*Removes Font Decoration*/
+    padding-right: 20px; /*Add Right Padding*/
+}

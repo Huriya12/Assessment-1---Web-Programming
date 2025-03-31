@@ -1,0 +1,42 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Pigiarniq'; /*Custom Font*/
+    src: url(Pigiarniq.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+h1 {
+    color: black; /*Set Font Color*/
+    font-family: 'Pigiarniq'; /*Set Font Type*/
+    text-align: center;  /*Centers Text*/
+    text-decoration: underline;  /*Adds Underline to Text*/
+    text-underline-offset: 20px; /*Adds Space Between Underline & Text*/
+    position: absolute; /*Ensure Precise Positioning*/
+    top: 18%; /*Move Content From Top*/
+    left: 50%; /*Move Content From Left*/
+    width: 100%; /*Ensures Content Take Up Full Width*/
+    transform: translate(-50%, -50%); /*Ensure Precise Center Position*/
+}
+
+.chapter3_images {
+    color: black; /*Set Font Color*/
+    font-family: 'Pigiarniq'; /*Set Font Type*/
+    font-size: 15px; /*Set Font Size*/
+    text-align: center;  /*Centers Text*/
+    margin-top: 200px; /*Add Top Margin for Spacing*/
+}
+
+.chapter3_images ul {
+    list-style: none; /*Removes List Style*/
+    padding: 0; /*Removes Padding*/
+}
+
+.chapter3_images li {
+    gap: 10px; /*Add Spacing Between Items*/
+    border-bottom: 1px solid black; /*Set Bottom Border Color & Thickness*/
+    padding-bottom: 15px;  /*Add Bottom Padding Around Container*/
+}
+
+.chapter3_images p {
+    color: gray; /*Set Font Color*/
+    font-size: 13px; /*Set Font Size*/
+}
+
