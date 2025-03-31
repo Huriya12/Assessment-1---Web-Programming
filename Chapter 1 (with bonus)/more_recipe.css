@@ -1,0 +1,24 @@
+@font-face{ /*Define Custom Font*/
+    font-family: 'Aston'; /*Custom Font*/
+    src: url(Aston\ Script.ttf) format('truetype'); /*Custom Font Link*/
+}
+
+.recipe_links {
+    background-color: #edecd8; /*Set Background Color*/
+    overflow: hidden; /*Hide Overflow Content*/
+    border-top: 1px solid black; /*Set Top Border Color & Thickness*/
+    width: 100%; /*Ensures Content Take Up Full Width*/
+    display: flex; /*Display Items Horizontally*/
+    gap: 20px; /*Add Spacing Between Items*/
+    padding: 10px; /*Add Padding Around Content*/
+}
+
+.recipe_links a {
+    color: 	#442F29; /*Set Font Color*/
+    text-align: left; /*Align Text to Left*/
+    justify-content: center; /*Align Items Center-Horizontally*/
+    font-family: 'Aston'; /*Set Font Type*/
+    font-size: 20px; /*Set Font Size*/
+    margin-bottom: 10px; /*Add Bottom Margin for Spacing*/
+    padding-left: 0px; /*Remove Left Padding*/
+}
